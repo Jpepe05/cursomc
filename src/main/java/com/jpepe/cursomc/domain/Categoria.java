@@ -15,7 +15,7 @@ import java.io.Serializable;
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
 public class Categoria implements Serializable{
-    private static final long serialVersionUID = 1l;
+    private static final long serialVersionUID = 1L;
 
     @EqualsAndHashCode.Include
     @Id
